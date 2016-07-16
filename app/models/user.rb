@@ -14,7 +14,7 @@ class User < ApplicationRecord
   end
 
   has_many :group_relationships
-  has_many :partcipated_groups, :through => :group_relationships, :source => :group
+  has_many :participated_groups, :through => :group_relationships, :source => :group
 
   def join!(group)
     participated_groups << group
