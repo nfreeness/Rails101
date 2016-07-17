@@ -12,6 +12,9 @@
  *
  * This line use to finish ch05.
  *
+ * ch08的commit备注chrome无法打开localhost，经排查是ssh翻墙使用全局模式造成的，改用自动模式之后正常
+ * 也就是说那个commit的代码没有问题，rail s也没有问题。
+ *
  *= require_tree .
  *= require_self
  */
